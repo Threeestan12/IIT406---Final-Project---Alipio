@@ -1,0 +1,493 @@
+* {box-sizing: border-box;}
+
+.title{
+    height:50%;
+    margin:5%;
+	font-size:100px;
+	background-image:url(https://thumbs.dreamstime.com/b/vector-philippines-pattern-ornaments-infographic-vector-illustration-abstract-ethnic-seamless-background-98526526.jpg);
+}
+
+.datetime{
+        
+            background-color:#0098FF;
+            font-family:arial;
+            width: 300px;
+            font-size: 16px;
+            padding: 14px 14px;
+            border: 3px solid #023020;
+            border-radius: 6px;
+            margin-left:auto;
+		
+}
+
+.date{
+        font-weight: bold;
+        text-align:center;
+		font-style: normal;
+        letter-spacing: 1px;
+		color: #000000;
+}
+  
+.time{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:18px;
+        font-family:arial;
+		color: #000000;
+}
+
+.time span:not(:last-child){
+    
+    postition:relative;
+    margin: 0px;
+    font-weight: 600;
+    text-align:center;
+    letter-spacing:2px;
+}
+
+.time span:last-child{
+    postition:relative;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform:uppercase;
+    margin-top:0px;
+}
+
+
+main{
+    margin-top: 65px;
+    margin-left: 15%;
+    margin-right: 0px;
+    width: 85%;
+    height: 100%;
+}
+
+header{
+        position:fixed;
+        display:flex;
+        overflow: hidden;
+        top:0px;
+        left:x;
+        right:0px;
+        height:100px;
+        background-color:#000000;
+        padding:10px;
+        width:100%;
+        z-index: 1;
+        transition: 0.2s;
+}
+
+body    {
+            margin:25px;
+            paddding:0px;
+            margin-top:0px;
+}
+	
+}
+h1.font{font-size:70px; font-family: serif;}
+h1.font2{font-size:50px; font-family: serif;}
+
+blockquote{
+    font-family: lato;
+    font-size: 20px;
+}
+
+html {
+    background-color: #fff;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+    
+section{
+    height:100%;
+    z-index: -1;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+    width: auto;
+    overflow: auto;
+        }
+        
+.sidebarnav {
+    margin-top: 35px;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background-color: #0098FF;
+    overflow-x: hidden;
+    padding-top: 10px;
+    font-family: oswald;
+    font-weight: bold;
+}
+
+.footer_link a{
+    overflow-x: hidden;
+    padding-top: 10px;
+    font-family: oswald;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+button.menu-drop{
+    font-family: oswald;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+    border:none;
+    display: flex;
+    justify-content: center;    
+    width: 25%;
+    margin:auto;
+    background-color: #ffffff;
+}
+
+.menu-drop-container{
+display:none;
+text-align: center;
+background-color: #90EE90;
+}
+
+
+.sidebarnav a, .dropdown-btn{
+  padding: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+  border:none;
+  background-color: #;
+  display: block;
+  cursor: pointer;
+  width:100%;
+  transition: 0.3s;
+}
+
+.sidebarnav a:hover, .drop-down-btn:hover {
+		background-color: #000000;}
+        
+.dropdown-container{
+    display: none; 
+    text-align: center;
+}
+
+.fa-caret-down{
+    float: left;
+	padding-left: 8px;
+}
+
+
+#History{
+background-color: #eddd26;
+background-size: auto;
+}
+
+#History img{
+                display:inline-block;
+                width:30%;
+                height:auto%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 50px;
+                padding:5px;
+}
+#Geography{
+
+background-color: #eddd26;
+
+}
+
+#Geography img{
+                display:inline-block;
+                width:30%;
+                height:auto%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 50px;
+                padding:5px;
+}
+
+#Demographics{
+
+    background-color: #eddd26;
+
+}
+
+#Demographics img{
+                    display:inline-block;
+                    width:30%;
+                    height:auto%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 50px;
+                    padding:5px;
+}
+
+#Culture{
+    background-color:#eddd26;
+}
+
+#Culture img{
+                display:inline-block;
+                width:30%;
+                height:auto%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 50px;
+                padding:5px;
+}
+
+#Luzon{
+       background-color:#eddd26; 
+}
+
+#Luzon img{
+            display:inline-block;
+            width:30%;
+            height:auto%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            padding:5px;
+}
+#Visayas{
+       background-color:#eddd26; 
+}
+
+#Visayas img{
+            display:inline-block;
+            width:30%;
+            height:auto%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            padding:5px;
+}
+#Mindanao{
+       background-color:#eddd26; 
+}
+
+#Mindanao img{
+            display:inline-block;
+            width:30%;
+            height:auto%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            padding:5px;
+}
+
+#login{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255,255,255,0.75)), 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+
+#contact{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255,255,255,0.75)), 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+
+
+    
+form {border: 3px solid #6ADBD2; postition:flex; background-color: white;}
+
+	input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: vertical;
+}
+        
+    select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+ }
+        
+    .login{
+    background-color: #04aa46;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+        
+    .submit{
+    background-color: #04aa46;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+    .login:hover {
+    opacity: 0.9;
+}
+        
+    .submit:hover {
+    opacity: 0.9;
+    }
+
+    .imgholder {
+    text-align: center;
+    margin: 24px 12px;
+}
+
+    img.avatar {
+    width: 10%;
+    border-radius: 50%;
+}
+
+    .holder {
+padding: 13px;
+    }
+
+    span.pw {
+    float: right;
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+        
+    .box {
+    border-radius: 5px;
+    margin:20px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+    input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+        
+footer{
+    background-color: #ffffff;
+    margin:0;
+    padding:5px;
+    display:static;
+    font-family:lucida console;
+    height:auto;
+    margin-left: 15%;
+    margin-right: 0px;
+    width: 85%;
+    }
+    
+@media (max-width: 750px) {
+    body {
+      background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255,255,255,0.75)), 
+      url("C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\Front.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+         }
+    
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+    
+    header{
+        position:fixed;
+        display:flex;
+        overflow: hidden;
+        top:0px;
+        left:0px;
+        right:0px;
+        height:70px;
+        background-color:#000000;
+        padding:10px;
+        width:100%;
+        z-index: 1;
+        transition: 0.2s;
+      }
+    
+    .sidebarnav {padding-top: 15px;}
+    .sidebarnav a {font-size: 18px;}
+    
+    .datetime{
+        
+            color: black;
+            background-color:#AFE1AF;
+            font-family:sans-serif;
+            width: 200px;
+            font-size: 6px;
+            padding: 12px 6px;
+            border: 3px solid #000000;
+            border-radius: 6px;
+            margin-left:auto;
+         }
+
+.date{
+        font-weight: 750;
+        text-align:center;
+        letter-spacing: 1px;
+     }
+  
+.time{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:7px;
+        font-family:monospace;
+}
+
+.time span:last-child{
+    font-size: 7px;
+    font-weight: 600;
+text-transform:uppercase;}
+    
+.sidebarnav {
+    margin-top: 5px;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    padding-top: 10px;
+}
+
+.sidebarnav a, .dropdown-btn{
+  padding: 8px;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.dropdown-container{
+    font-size: 8px;
+}
+
+
+
+}

@@ -1,0 +1,440 @@
+<!-- IIT406 - Computer Programming 3 -->
+<!-- Alipio, Tristan Andrei C. 
+	IT Student - Student Number: 4210795
+	1st Semester, -->
+<!-- Final Exam Project -->
+<!-- Date: 12/7/2022 -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Home Page </title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+            <link rel="stylesheet" href = "Alipio_Home.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<!-- The clock doesn't work whenever I put the javascript file in here so I put the script below -->
+    </head> 	
+    <body onload="initClock()">
+    
+    <header>
+
+        <a href='Home.html' style="display:Flex;">
+            <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\Coat_Of_Arms.png">
+            <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\Fun_In_PH.png">
+        </a>
+
+
+    <div class="datetime">
+      <div class="date">
+        <span id="dayname">Day</span>,
+        <span id="month">Month</span>
+        <span id="daynum">00</span>,
+        <span id="year">Year</span>
+      </div>
+      <div class="time">
+        <span id="hour">00</span>:
+        <span id="minutes">00</span>:
+        <span id="seconds">00</span>
+        <span id="period">AM</span>
+      </div>
+    </div>
+
+            </div>
+        </div>
+    </header>
+    
+    <main>
+    <div class="sidebarnav">
+    <center><p style="padding: 3px;" justify-left: "center;"> Menu </p></center>
+    <button class="dropdown-btn"> About Philippines 
+        <i class="fa fa-caret-down" aria-hidden="true"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="#">History</a>
+        <a href="#">Geography and Environment</a>
+        <a href="#">Demographics</a>
+        <a href="#">Culture</a>
+    </div>
+    <button class="dropdown-btn"> Tourist Attraction 
+        <i class="fa fa-caret-down" aria-hidden="true"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="#">Luzon</a>
+        <a href="#">Visayas</a>
+        <a href="#">Mindanao</a>
+    </div>
+        <center><a href="VideoGallery.html"></i>&nbsp; Video Gallery</a>
+        <a href="Login.html"></i>&nbsp; Login</a>
+        <a href="ContactUs.html"></i>&nbsp; Contact US</a></center>
+    
+
+    <script>
+    var dropdown = document.getElementsByClassName("dropdown-btn");  var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+            } else {
+                dropdownContent.style.display = "block";
+            }
+      });
+    }
+    </script>
+    </div>
+        <section>
+        <div>
+
+        </div>
+            <div class="title"> Philippines <br>
+						 Pearl of the Orient Seas
+            </div>
+        </section>
+        
+        <section id="History">
+            <div class="section-inner">
+            <div>
+              <h1 class="font2">  About The Philippines </h1>
+              <h1 class="font3"> History of the Philippines </h1>
+            </div>
+				<br><hr>
+                    <table cellspacing=10px;>
+                      <tbody>
+                        <tr>
+                            <td> <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\PreCol.jpg" alt="Pre-Colonial Period"> </td>
+                        </tr>
+                        <tr>
+                            <td><h2 style="text-indent:20px; font-size: 40px; font-family: fantasy;">Pre-Colonial Philippines</h2>
+                            <blockquote>
+                                The Philippine literature in different era have specific characteristics: Pre-Colonial period literature characterized based on oral traditions, crude on ideology and phraseology.; Spanish Colonization period literature have the characteristics of having two distinct classification the religious and secular.
+                            </blockquote>
+                        </tr>
+                        <tr>
+                            <td> <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\SpanishCol.jpg" alt="Spanish Period"> </td>
+                        </tr>
+                        <tr>
+                            <td><h2 style="text-indent:20px; font-size: 40px; font-family: fantasy;"> Spanish Colonial Period in Philippines </h2>
+                            <blockquote>
+                                Spanish colonial motives were not, however, strictly commercial. The Spanish at first viewed the Philippines as a stepping-stone to the riches of the East Indies (Spice Islands), but, even after the Portuguese and Dutch had foreclosed that possibility, the Spanish still maintained their presence in the archipelago. The Spanish colonial period of the Philippines began when explorer Ferdinand Magellan came to the islands in 1521 and claimed it as a colony for the Spanish Empire. The period lasted until the Philippine Revolution in 1898.
+                            </blockquote>
+                        </tr>
+                        <tr>
+                            <td> <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\AmericanCol.jpg" alt="American Period"> </td>
+                        </tr>
+                        <tr>
+                            <td><h2 style="text-indent:20px; font-size: 40px; font-family: fantasy;">  American Colonial Period in Philippines </h2>
+                            <blockquote>
+                                The ensuing Philippine-American War lasted three years and resulted in the death of over 4,200 American and over 20,000 Filipino combatants. As many as 200,000 Filipino civilians died from violence, famine, and disease. The decision by U.S. policymakers to annex the Philippines was not without domestic controversy. The period of American colonialization of the Philippines was 48 years. It began with the cession of the Philippines to the U.S. by Spain in 1898 and lasted until the U.S. recognition of Philippine independence in 1946.
+                            </blockquote>
+                        </tr>
+                        <tr>
+                            <td> <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\JapaneseCol.jpg" alt="Japaneses Period"> </td>
+                        </tr>
+                        <tr>
+                            <td><h2 style="text-indent:20px; font-size: 40px; font-family: fantasy;"> Japanese Colonial Period in Philippines </h2>
+                            <blockquote >
+                                Japan first occupied the Philippines at the beginning of World War II because it was located between the oil-producing Dutch East Indies (present-day Indonesia) and Japan. The Philippines was an important location for transporting oil from the Dutch East Indies and French Indochina to Japan. Through December 1944, the islands of Leyte and Mindoro were cleared of Japanese soldiers. During the campaign, the Imperial Japanese Army conducted a suicidal defense of the islands. Cities such as Manila were reduced to rubble. Around 500,000 Filipinos died during the Japanese Occupation Period.
+                            </blockquote>
+                        </tr>
+						                        <tr>
+                            <td> <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\Present.jpg" alt="Present"> </td>
+                        </tr>
+                        <tr>
+                            <td><h2 style="text-indent:20px; font-size: 40px; font-family: fantasy;"> Today's Era </h2>
+                            <blockquote>
+                                The Philippines is a collectivist society, in which the needs of the family are prioritized over the needs of the individual. Filipinos value social harmony and maintaining smooth relationships, which means they may often avoid expressing their true opinions or delivering unwanted news.The Philippines is a collectivist society, in which the needs of the family are prioritized over the needs of the individual. Filipinos value social harmony and maintaining smooth relationships, which means they may often avoid expressing their true opinions or delivering unwanted news.
+                            </blockquote>
+                        </tr>
+                      </tbody>
+                    </table>
+                <br><hr>
+            </div>
+        </section>
+        <section id="Geography">
+				<br><hr>
+                    <table cellspacing=10px;>
+                      <tbody>
+                        <tr>
+                            <td> <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\PhilippineMap.jpg" alt="PhilippineMap"> </td>
+                        </tr>
+                        <tr>
+                            <td><h2 style="text-indent:20px; font-size: 40px; font-family: fantasy;">Geography and Environment</h2>
+                            <blockquote>
+                                The Philippines, officially the Republic of the Philippines, is an archipelagic country in Southeast Asia. It is situated in the western Pacific Ocean and consists of around 7,641 islands dotted over 300,000 square kilometers of territory. that are broadly categorized under three main geographical divisions from north to south: Luzon, Visayas, and Mindanao. The tropical climate here has an average temperature of 27°C (82°F).
+                            </blockquote>
+                        </tr>
+                        <tr>
+                      </tbody>
+                    </table>
+                <br><hr>
+            </div>
+        </section>
+        <section id="Demographics">
+				<br><hr>
+                    <table cellspacing=10px;>
+                      <tbody>
+                        <tr>
+                            <td> <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\Demographics.png" alt="PhilippineMap"> </td>
+                        </tr>
+                        <tr>
+                            <td><h2 style="text-indent:20px; font-size: 40px; font-family: fantasy;">Demographics as of 2020</h2>
+                            <blockquote style="text-indent:20px; font-size: 24px; font-family: lucida console;">
+                            <h4>Philippine Population Count:</h4> 109,035,343 (2020)<br><br>
+                            <h4>Philippine Population of Children:</h4>31.17 million (2020)<br><br>
+                            <h4>Philippine Median Age:</h4> 23.6%(Male), 24.6(%female), 24.1% (Total)<br><br>
+							<h4>Philippine Population Rank in the World: </h4> Number 13 <br><br>
+                            <h4>Philippine Religion: </h4> 80.58%(Catholic), 5.57%(Islam), 2.68%(Evangelicals), 2.45%(Iglesia ni Cristo), 1.16%(Protestant), 1.00(Aglipayan) 0.78(Seventh-day Adventist), 0.45(Jehovah's Witnesses) <br><br>
+                            </blockquote>
+                        </tr>
+                        <tr>
+                      </tbody>
+                    </table>
+                <br><hr>
+            </div>
+        </section>
+		<div>
+        <section id="Culture">
+        <div class="section-inner">
+            <div>
+              <h1 class="font2">  Culture in the Philippines </h1>
+            </div>
+				<br><hr>
+                    <table cellspacing=10px;>
+                      <tbody>
+                        <tr>
+                            <td> <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\Family.jpg" alt="Family"> </td>
+                        </tr>
+                        <tr>
+                            <td><h2 style="text-indent:20px; font-size: 40px; font-family: fantasy;">Family-Oriented Life</h2>
+                            <blockquote>
+                                Filipinos are known for having strong and close family ties. They place high regard and put importance on their family before anything else. They work all day and do all they can to feed and provide for their family. In other countries, when a person turned 18, he/she can live away from his/her family.    
+                            </blockquote>
+                        </tr>
+                        <tr>
+                            <td> <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\Art.jpg" alt="Arts"> </td>
+                        </tr>
+                        <tr>
+                            <td><h2 style="text-indent:20px; font-size: 40px; font-family: fantasy;">Arts</h2>
+                            <blockquote>
+                            Filipino art has a great influence from generation to generation, from cultures of different countries and its diversity over them. Paintings were mostly done on walls in prehistoric times. Paintings included different types of movement of the human body, different animals, fruit gatherers, and objects.
+                            </blockquote>
+                        </tr>
+                        <tr>
+                            <td> <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\Fiesta.jpg" alt="Festival"> </td>
+                        </tr>
+                        <tr>
+                            <td><h2 style="text-indent:20px; font-size: 40px; font-family: fantasy;">Fiesta or Festival </h2>
+                            <blockquote>
+                           A festival or commonly known as a “Fiesta” is part of the Filipino culture. Each city or province has a local fiesta. Being a very religious centered country, a fiesta is commonly about the celebration of a city or province's patron saint or of harvest. There is a fiesta going on at any time in the Philippines.
+                            </blockquote>
+                        </tr>
+                        <tr>
+                      </tbody>
+                    </table>
+                <br><hr>
+            </div>
+        </section>
+        <section id="Luzon">
+        <div class="section-inner">
+            <div>
+              <h1 class="font2">  Tourist Attraction </h1>
+              <h1 class="font3"> Luzon </h1>
+            </div>
+				<br><hr>
+                    <table cellspacing=10px;>
+                      <tbody>
+                        <tr>
+                            <td> <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\Taal.jpg" alt="Mountain :)"> </td>
+                        </tr>
+                        <tr>
+                            <td><h2 style="text-indent:20px; font-size: 40px; font-family: fantasy;"> 1. Mt. Taal </h2>
+                            <blockquote>
+                                It has become a must-visit destination for every traveler across the world because of its picturesque features like no other. You can see the volcano from one of the Philippines' most visited destinations, Tagaytay. The city has a postcard-perfect view of the volcano that everyone loves.
+                            </blockquote>
+                        </tr>
+                        <tr>
+                            <td> <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\MVP.jpg" alt="Baguio :)"> </td>
+                        </tr>
+                        <tr>
+                            <td><h2 style="text-indent:20px; font-size: 40px; font-family: fantasy;"> 2. Mines View Park, Baguio </h2>
+                            <blockquote>
+                                Mines View Park is an overlook park on the northeastern outskirts of Baguio in the Philippines. In the park is an Observation Deck that will enable the tourists to take an astonishing panoramic view that overlooks the mining town of Itogon which hosts the used to be a gold and copper mines of Benguet Corporation. A glimpse of the Amburayan Valley can also be witnessed at the view deck. It is five kilometers away from the Heart of Baguio, passing through the Botanical Garden, the Mansion House, Wright Park, and the Pacdal Circle. 
+                            </blockquote>
+                        </tr>
+                        <tr>
+                            <td> <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\Binondo.jpg" alt="Chinatown :)"> </td>
+                        </tr>
+                        <tr>
+                            <td><h2 style="text-indent:20px; font-size: 40px; font-family: fantasy;"> 3. Binondo Chinatown </h2>
+                            <blockquote>
+                                Binondo is the "Chinatown" district of Manila. It is the oldest Chinatown in the world and was the country's center of commerce during the American occupation. Many of Binondo's commercial establishments were destroyed after World War II, with companies moving to Makati, the financial capital of the Philippines.
+                            </blockquote>
+                        </tr>
+                        <tr>
+                      </tbody>
+                    </table>
+                <br><hr>
+            </div>
+        </section>
+		        <section id="Visayas">
+        <div class="section-inner">
+            <div>
+              <h1 class="font2">  Tourist Attraction </h1>
+              <h1 class="font3"> Visayas </h1>
+            </div>
+				<br><hr>
+                    <table cellspacing=10px;>
+                      <tbody>
+                        <tr>
+                            <td> <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\Boracay.jpg" alt="Island :)"> </td>
+                        </tr>
+                        <tr>
+                            <td><h2 style="text-indent:20px; font-size: 40px; font-family: fantasy;"> 1. Boracay Island </h2>
+                            <blockquote>
+                                It’s one of the highest mountains in the Philippines and home to an incredible array of wildlife species. It has one of the most difficult climbs especially when you get to a part called, “Stairway to Heaven.”
+                                Mt. Amuyao also offers a stunning view of the sunrise and sunset complementing the sea of clouds. It is one of the favourite hiking spot in North Luzon. 
+                            </blockquote>
+                        </tr>
+                        <tr>
+                            <td> <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\MagellanCross.jpg" alt="Cross :)"> </td>
+                        </tr>
+                        <tr>
+                            <td><h2 style="text-indent:20px; font-size: 40px; font-family: fantasy;"> 2. Magellan Cross </h2>
+                            <blockquote>
+                                If you want to spelunk and adventure the depths of this caves say no more. It is easy and manageable as it goes down.
+                                Sumaguing Cave is one of the most visited tourist spots in Luzon area. It's considered the deepest cave in the Philippines. Natural-made pools with icy-cold and crystal-clear waters are found inside. 
+                                Like the tortoise shaped formation, This Cave is located in Sagada, northern Philippines. 
+                            </blockquote>
+                        </tr>
+                        <tr>
+                            <td> <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\CTP.jpg" alt="Temple :)"> </td>
+                        </tr>
+                        <tr>
+                            <td><h2 style="text-indent:20px; font-size: 40px; font-family: fantasy;"> 3. Cebu Taoist Temple </h2>
+                            <blockquote>
+                                Now tired seeing caves blah, blah. But you want some seightseeing? Then Vigan City is the one you are looking for. Located in Vigan, Ilocos sur... it is the Capital of Ilocos Sur and one of the best preserved colonial towns in the Philippines. 
+                                The town's historical and cultural significance feed wanderlust as well as a traveler's mind and soul. because of its best preservation it feels like going back in time.
+                            </blockquote>
+                        </tr>
+                        <tr>
+                      </tbody>
+                    </table>
+                <br><hr>
+            </div>
+        </section>
+		        <section id="Mindanao">
+        <div class="section-inner">
+            <div>
+              <h1 class="font2">  Tourist Attraction </h1>
+              <h1 class="font3"> Mindanao</h1>
+            </div>
+				<br><hr>
+                    <table cellspacing=10px;>
+                      <tbody>
+                        <tr>
+                            <td> <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\Siargao.jpg" alt="Island :)"> </td>
+                        </tr>
+                        <tr>
+                            <td><h2 style="text-indent:20px; font-size: 40px; font-family: fantasy;"> 1. Siargao </h2>
+                            <blockquote>
+                                It’s one of the highest mountains in the Philippines and home to an incredible array of wildlife species. It has one of the most difficult climbs especially when you get to a part called, “Stairway to Heaven.”
+                                Mt. Amuyao also offers a stunning view of the sunrise and sunset complementing the sea of clouds. It is one of the favourite hiking spot in North Luzon. 
+                            </blockquote>
+                        </tr>
+                        <tr>
+                            <td> <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\Apo.jpg" alt="Mountain :)"> </td>
+                        </tr>
+                        <tr>
+                            <td><h2 style="text-indent:20px; font-size: 40px; font-family: fantasy;"> 2. Mount Apo </h2>
+                            <blockquote>
+                                If you want to spelunk and adventure the depths of this caves say no more. It is easy and manageable as it goes down.
+                                Sumaguing Cave is one of the most visited tourist spots in Luzon area. It's considered the deepest cave in the Philippines. Natural-made pools with icy-cold and crystal-clear waters are found inside. 
+                                Like the tortoise shaped formation, This Cave is located in Sagada, northern Philippines. 
+                            </blockquote>
+                        </tr>
+                        <tr>
+                            <td> <img src="C:\Users\Admin\OneDrive\Documents\IIT406 FINAL\PEC.jpg" alt="Eagle :)"> </td>
+                        </tr>
+                        <tr>
+                            <td><h2 style="text-indent:20px; font-size: 40px; font-family: fantasy;"> 3. Philippine Eagle Center </h2>
+                            <blockquote>
+                                Now tired seeing caves blah, blah. But you want some seightseeing? Then Vigan City is the one you are looking for. Located in Vigan, Ilocos sur... it is the Capital of Ilocos Sur and one of the best preserved colonial towns in the Philippines. 
+                                The town's historical and cultural significance feed wanderlust as well as a traveler's mind and soul. because of its best preservation it feels like going back in time.
+                            </blockquote>
+                        </tr>
+                        <tr>
+                      </tbody>
+                    </table>
+                <br><hr>
+            </div>
+        </section>
+    </main>
+    <footer>
+    <div class="footer_container">
+        <div class="footer_link">
+        <button class="menu-drop"> About Philippines <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+        <div class="menu-drop-container">
+            <a href="#">History |</a>
+            <a href="#">Geography and Environment |</a>
+            <a href="#">Demographics | </a>
+            <a href="#">Culture </a>
+        </div>
+        <button class="menu-drop"> Tourist Attraction <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+        <div class="menu-drop-container">
+            <a href="#">Luzon |</a>
+            <a href="#">Visayas |</a>
+            <a href="#">Mindanao |</a>
+        </div>
+        <center><a href="VideoGallery.html"></i>&nbsp; Video Gallery |</a>
+        <a href="Login.html"></i>&nbsp; Login |</a>
+        <a href="ContactUs.html"></i>&nbsp; Contact US</a></center>
+        <script>
+        </script>
+        </div>
+        <center><p> Copyright @ 2022. All Rights Reserved. </p></center>
+    </footer>
+    </body>
+</html>
+
+// <script>
+    function updateClock(){
+      var now = new Date();
+      var dname = now.getDay(),
+          mo = now.getMonth(),
+          dnum = now.getDate(),
+          yr = now.getFullYear(),
+          hou = now.getHours(),
+          min = now.getMinutes(),
+          sec = now.getSeconds(),
+          pe = "AM";
+
+          if(hou >= 12){
+            pe = "PM";
+          }
+          if(hou == 0){
+            hou = 12;
+          }
+          if(hou > 12){
+            hou = hou - 12;
+          }
+
+          Number.prototype.pad = function(digits){
+            for(var n = this.toString(); n.length < digits; n = 0 + n);
+            return n;
+          }
+
+          var months = ["January", "February", "March", "April", "May", "June", "July", "Augest", "September", "October", "November", "December"];
+          var week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+          var ids = ["dayname", "month", "daynum", "year", "hour", "minutes", "seconds", "period"];
+          var values = [week[dname], months[mo], dnum.pad(2), yr, hou.pad(2), min.pad(2), sec.pad(2), pe];
+          for(var i = 0; i < ids.length; i++)
+          document.getElementById(ids[i]).firstChild.nodeValue = values[i];
+    }
+
+    function initClock(){
+      updateClock();
+      window.setInterval("updateClock()", 1);
+    }
+    </script>
